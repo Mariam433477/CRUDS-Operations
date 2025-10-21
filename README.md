@@ -54,101 +54,55 @@ It allows users to manage records efficiently with a clean, modern interface —
 ## 📁 Project Structure
 
 ```
-├─ 
-Crads
-│  ├─ 
-.gitignore
-│  ├─ 
-eslint.config.js
-│  ├─ 
-index.html
-│  ├─ 
-package-lock.json
-│  ├─ 
-package.json
-│  ├─ 
-public
-│  │  └─ 
-vite.svg
-│  ├─ 
-src
-│  │  ├─ 
-Components
-│  │  │  ├─ 
-DivHome.jsx
-│  │  │  ├─ 
-Footer.jsx
-│  │  │  ├─ 
-Header.jsx
-│  │  │  └─ 
-MyTable.jsx
-│  │  ├─ 
-Custom
-│  │  │  ├─ 
-Api
-│  │  │  │  └─ 
-fetchApi.js
-│  │  │  └─ 
-MainButton.js
-│  │  ├─ 
-Layout
-│  │  │  ├─ 
-MainLayout.jsx
-│  │  │  └─ 
-SheredLayout.jsx
-│  │  ├─ 
-Pages
-│  │  │  ├─ 
-Home.jsx
-│  │  │  ├─ 
-NotFound.jsx
-│  │  │  ├─ 
-ProductDetails.jsx
-│  │  │  ├─ 
-ProductForm.jsx
-│  │  │  └─ 
-Products.jsx
-│  │  ├─ 
-assets
-│  │  │  └─ 
-react.svg
-│  │  ├─ 
-main.jsx
-│  │  └─ 
-store
-│  │     ├─ 
-index.js
-│  │     └─ 
-slices
-│  │        └─ 
-productSlice.js
-│  └─ 
-vite.config.js
-├─ 
-README.md
-├─ 
-screenshots
-│  ├─ 
-add.png
-│  ├─ 
-home.png
-│  ├─ 
-products.png
-│  ├─ 
-products_details.png
-│  └─ 
-update.png
-└─ 
-server
-   ├─ 
-.gitignore
-   ├─ 
-data.json
-   ├─ 
-package-lock.json
-   └─ 
-package.json
-Manual
+
+📦 
+├─ Crads
+│  ├─ .gitignore
+│  ├─ eslint.config.js
+│  ├─ index.html
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ public
+│  │  └─ vite.svg
+│  ├─ src
+│  │  ├─ Components
+│  │  │  ├─ DivHome.jsx
+│  │  │  ├─ Footer.jsx
+│  │  │  ├─ Header.jsx
+│  │  │  └─ MyTable.jsx
+│  │  ├─ Custom
+│  │  │  ├─ Api
+│  │  │  │  └─ fetchApi.js
+│  │  │  └─ MainButton.js
+│  │  ├─ Layout
+│  │  │  ├─ MainLayout.jsx
+│  │  │  └─ SheredLayout.jsx
+│  │  ├─ Pages
+│  │  │  ├─ Home.jsx
+│  │  │  ├─ NotFound.jsx
+│  │  │  ├─ ProductDetails.jsx
+│  │  │  ├─ ProductForm.jsx
+│  │  │  └─ Products.jsx
+│  │  ├─ assets
+│  │  │  └─ react.svg
+│  │  ├─ main.jsx
+│  │  └─ store
+│  │     ├─ index.js
+│  │     └─ slices
+│  │        └─ productSlice.js
+│  └─ vite.config.js
+├─ README.md
+├─ screenshots
+│  ├─ add.png
+│  ├─ home.png
+│  ├─ products.png
+│  ├─ products_details.png
+│  └─ update.png
+└─ server
+   ├─ .gitignore
+   ├─ data.json
+   ├─ package-lock.json
+   └─ package.json
  
 ```
 
@@ -164,20 +118,20 @@ Manual
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Mariam433477/e-commerce
-   cd e-commerce
+   git clone https://github.com/Mariam433477/CRUDS-Operations
+   cd CRUDS-Operations
    ```
 
 2. **Install Backend Dependencies**
 
    ```bash
-   cd backend
+   cd server
    npm install
    ```
 
 3. **Install Frontend Dependencies**
    ```bash
-   cd ../frontend
+   cd  Cruds
    npm install
    ```
 
@@ -186,7 +140,7 @@ Manual
 1. **Start the JSON Server**
 
    ```bash
-   cd backend
+   cd server
    npm start
    ```
 
@@ -195,7 +149,7 @@ Manual
 2. **Start the Frontend Development Server**
 
    ```bash
-   cd frontend
+   cd Cruds
    npm run dev
    ```
 
@@ -209,78 +163,26 @@ Manual
 ### 🏠 Home Page
 
 ![Home Page](screenshots/home.png)
-_Main landing page with product carousel and featured products_
+_Display of all Sections
 
-### 🔐 Authentication
+### 🔐 Products
 
-![Login Page](screenshots/login.png)
-_User login interface with form validation_
+### 🔐 Products Page
+![Products Page](screenshots/products.png)
+_Display of all products in a grid, includes search bar, filter options, and product cards inside div containers_
 
-![Register Page](screenshots/register.png)
-_User registration form with input validation_
+### 📄 Product Details Page
+![Products_details Page](screenshots/products_details.png)
+_Detailed product view  
 
-### 🛒 Shopping Features
+### ➕ Add Product Page
+![Add Product Page](screenshots/add.png)
+_Form for adding new products with input fields for name, price, description, and submit button, all wrapped in div containers_
 
-![Shopping Cart](screenshots/cart.png)
-_Shopping cart with item management and quantity controls_
+### ✏️ Update Product Page
+![Update Product Page](screenshots/update.png)
+_Form for editing existing product details
 
-![Favorites](screenshots/favourites.png)
-_User favorites page with saved products_
-
-![Product Details](screenshots/product-detials.png)
-_Detailed product view with specifications and add to cart functionality_
-
-## 📊 API Endpoints
-
-The JSON Server provides the following RESTful API endpoints:
-
-### Users
-
-- `GET /users` - Get all users
-- `POST /users` - Create new user
-- `GET /users/:id` - Get user by ID
-- `PUT /users/:id` - Update user
-- `DELETE /users/:id` - Delete user
-
-### Carousel
-
-- `GET /carousel` - Get all carousel slides
-- `POST /carousel` - Create new slide
-- `GET /carousel/:id` - Get slide by ID
-- `PUT /carousel/:id` - Update slide
-- `DELETE /carousel/:id` - Delete slide
-
-## 🎯 Key Features Implementation
-
-### State Management
-
-- **Redux Toolkit** for centralized state management
-- **User Slice**: Handles authentication and user data
-- **Cart Slice**: Manages shopping cart with localStorage persistence
-- **Product Slice**: Manages product data and filtering
-- **Favorites Slice**: Handles user favorites
-- **Carousel Slice**: Manages homepage carousel data
-
-### Routing
-
-- **Protected Routes**: Authentication-required pages
-- **Public Routes**: Accessible to all users
-- **Dynamic Routing**: Product details with ID parameters
-
-### Data Persistence
-
-- **localStorage**: User sessions, cart data, and favorites
-- **JSON Server**: Backend data storage
-- **User-specific Data**: Separate cart and favorites per user
-
-## 🎨 UI/UX Features
-
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **Bootstrap Components**: Consistent styling and layout
-- **Interactive Elements**: Hover effects, transitions, and animations
-- **Loading States**: User feedback during data fetching
-- **Error Handling**: Graceful error messages and fallbacks
-- **Accessibility**: Semantic HTML and keyboard navigation
 
 ## 🔧 Development Scripts
 
@@ -323,4 +225,4 @@ npm start        # Start JSON server (mock backend)
 
 ---
 
-**Happy Shopping! 🛒✨**
+**Simple CRUD System — Fast, Clean, and Functional ⚡**
