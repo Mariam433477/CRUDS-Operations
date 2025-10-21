@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 1200
+    },
+    {
+      "id": "2",
+      "name": "Smartphone",
+      "price": 800
+    },
+    {
+      "id": "3",
+      "name": "Wireless Mouse3",
+      "price": 25
+    },
+    {
+      "id": "4",
+      "name": "Headphones3",
+      "price": 60
+    }
+  ]
+}
