@@ -54,62 +54,102 @@ It allows users to manage records efficiently with a clean, modern interface —
 ## 📁 Project Structure
 
 ```
-e-commerce-1/
-├── frontend/                 # React frontend application
-│   ├── src/
-│   │   ├── components/      # Reusable UI components
-│   │   │   ├── CardProduct.jsx
-│   │   │   ├── CarouselItemCom.jsx
-│   │   │   ├── CartCom.jsx
-│   │   │   ├── DetailsProductSection.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── FormAuth.jsx
-│   │   │   ├── Header.jsx
-│   │   │   ├── NavBar.jsx
-│   │   │   ├── OrderShipped.jsx
-│   │   │   └── OurProducts.jsx
-│   │   ├── custom/          # Custom components and utilities
-│   │   │   ├── Api/         # API service files
-│   │   │   └── MainButton.jsx
-│   │   ├── layout/          # Layout components
-│   │   │   ├── MainLayout.jsx
-│   │   │   ├── ProtectedRoute.jsx
-│   │   │   ├── PublicRoute.jsx
-│   │   │   └── SharedLayout.jsx
-│   │   ├── pages/           # Page components
-│   │   │   ├── BuyNowSuccess.jsx
-│   │   │   ├── Cart.jsx
-│   │   │   ├── Favorites.jsx
-│   │   │   ├── Home.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── NotFound.jsx
-│   │   │   ├── ProductDetails.jsx
-│   │   │   └── Register.jsx
-│   │   ├── store/           # Redux store and slices
-│   │   │   ├── index.js
-│   │   │   └── slices/
-│   │   │       ├── carouselSlice.js
-│   │   │       ├── cartSlice.js
-│   │   │       ├── favSlice.js
-│   │   │       ├── productSlice.js
-│   │   │       └── userSlice.js
-│   │   └── main.jsx         # Application entry point
-│   ├── public/              # Static assets
-│   ├── package.json
-│   └── vite.config.js
-├── backend/                  # JSON Server mock backend
-│   ├── data.json            # JSON database
-│   ├── public/              # Static assets
-│   │   └── assets/          # Product images
-│   ├── package.json
-│   └── node_modules/
-├── screenshots/              # Application screenshots
-│   ├── home.png
-│   ├── login.png
-│   ├── register.png
-│   ├── cart.png
-│   └── favourites.png
-└── README.md
+├─ 
+Crads
+│  ├─ 
+.gitignore
+│  ├─ 
+eslint.config.js
+│  ├─ 
+index.html
+│  ├─ 
+package-lock.json
+│  ├─ 
+package.json
+│  ├─ 
+public
+│  │  └─ 
+vite.svg
+│  ├─ 
+src
+│  │  ├─ 
+Components
+│  │  │  ├─ 
+DivHome.jsx
+│  │  │  ├─ 
+Footer.jsx
+│  │  │  ├─ 
+Header.jsx
+│  │  │  └─ 
+MyTable.jsx
+│  │  ├─ 
+Custom
+│  │  │  ├─ 
+Api
+│  │  │  │  └─ 
+fetchApi.js
+│  │  │  └─ 
+MainButton.js
+│  │  ├─ 
+Layout
+│  │  │  ├─ 
+MainLayout.jsx
+│  │  │  └─ 
+SheredLayout.jsx
+│  │  ├─ 
+Pages
+│  │  │  ├─ 
+Home.jsx
+│  │  │  ├─ 
+NotFound.jsx
+│  │  │  ├─ 
+ProductDetails.jsx
+│  │  │  ├─ 
+ProductForm.jsx
+│  │  │  └─ 
+Products.jsx
+│  │  ├─ 
+assets
+│  │  │  └─ 
+react.svg
+│  │  ├─ 
+main.jsx
+│  │  └─ 
+store
+│  │     ├─ 
+index.js
+│  │     └─ 
+slices
+│  │        └─ 
+productSlice.js
+│  └─ 
+vite.config.js
+├─ 
+README.md
+├─ 
+screenshots
+│  ├─ 
+add.png
+│  ├─ 
+home.png
+│  ├─ 
+products.png
+│  ├─ 
+products_details.png
+│  └─ 
+update.png
+└─ 
+server
+   ├─ 
+.gitignore
+   ├─ 
+data.json
+   ├─ 
+package-lock.json
+   └─ 
+package.json
+Manual
+ 
 ```
 
 ## 🚀 Getting Started
